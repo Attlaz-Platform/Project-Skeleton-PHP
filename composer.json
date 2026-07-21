@@ -1,6 +1,6 @@
 {
-  "name": "attlaz/project",
-  "description": "Attlaz iPaas solutions & tools for cloud connected businesses, automation and scaling",
+  "name": "attlaz/skeleton",
+  "description": "Skeleton to start a new Attlaz PHP project",
   "keywords": [
     "attlaz",
     "connect",
@@ -11,12 +11,11 @@
   ],
   "license": "MIT",
   "type": "project",
-  "version": "1.1.0",
   "homepage": "https://attlaz.com",
   "require": {
-    "php": "^7.4 || ^8.0",
-    "attlaz/project-base": "^1.7.0",
-    "attlaz/adapter-base": "^1.4.3"
+    "php": "^8.4",
+    "attlaz/project-base": "^1.18",
+    "attlaz/adapter-base": "^1.20"
   },
   "autoload": {
     "psr-4": {
@@ -24,15 +23,11 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.3",
-    "monolog/monolog": "^2.1",
+    "phpunit/phpunit": "^12.0",
+    "monolog/monolog": "^3.0",
     "bramus/monolog-colored-line-formatter": "~3.0"
   },
   "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.attlaz.com/"
-    }
   ],
   "scripts": {
     "post-autoload-dump": "Attlaz\\Project\\Setup\\Install::run"

@@ -19,6 +19,7 @@ ehthumbs_vista.db
 ##### Composer
 composer.phar
 /vendor/
+auth.json
 
 ##### PuTTY
 # Private key
