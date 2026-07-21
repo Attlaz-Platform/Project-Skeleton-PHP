@@ -14,10 +14,10 @@ The PHP project template to set up an Attlaz project
 
 ## Installation
 
-* Create a new Composer project using the Attlaz project package.
+* Create a new Composer project from the Attlaz skeleton.
 
 ``` 
-composer create-project attlaz/project .
+composer create-project attlaz/skeleton .
 ```
 
 ## Command line
