@@ -1,39 +1,45 @@
-# Attlaz Project Template
+# Attlaz Skeleton
 
-Welcome to the Attlaz installation.
+[![Latest Stable Version](https://img.shields.io/packagist/v/attlaz/skeleton.svg)](https://packagist.org/packages/attlaz/skeleton)
 
-## Description
-
-The PHP project template to set up an Attlaz project
+The starting point for a PHP project on [Attlaz](https://attlaz.com), a cloud-based iPaaS (Integration Platform as a Service). It scaffolds a ready-to-run project already wired to [`attlaz/project-base`](https://packagist.org/packages/attlaz/project-base), with a sample command, configuration and dependency-injection setup.
 
 ## Requirements
 
-### Local development
-
-- Docker (version >= 18)
+- PHP 8.4+
+- Docker 18+ (optional — for running via the Attlaz PHP images without a local PHP install)
 
 ## Installation
 
-* Create a new Composer project from the Attlaz skeleton.
+Create a new project from the skeleton:
 
-``` 
-composer create-project attlaz/skeleton .
+```sh
+composer create-project attlaz/skeleton my-project
 ```
 
-## Command line
+## Quick start
 
-**On Mac/Linux**
+Run the console to see the available commands:
 
-``` 
+```sh
+# Mac / Linux
 bin/console help
-```
 
-**On Windows**
-
-``` 
+# Windows
 bin\console help
 ```
 
+From here, add your own commands under `src/App/` and configure the project in `src/App/etc/`.
+
 ## Documentation
 
-https://docs.attlaz.com
+Full documentation at [docs.attlaz.com](https://docs.attlaz.com).
+
+## Getting help
+
+- [Issue Tracker](https://github.com/Attlaz-Platform/Project-Skeleton-PHP/issues) — questions, bug reports and feature requests
+- Developer support: developers@attlaz.com
+
+## License
+
+[MIT](LICENSE)
